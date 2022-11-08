@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'background' : '#101019',
-        'tulisan' : '#9695E5'
+        'tulisan' : '#9695E5',
+        'tulisan-light' : '#7574B2',
       }
     },
   },

@@ -3,6 +3,7 @@ import LoginPage from "./pages/loginPage"
 import SignUp from "./pages/signUp"
 import Verify from "./pages/verify"
 import Resend from "./pages/resend"
+import Home from "./pages/home"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <Route path="sign-up" element={ <SignUp/> } />
             <Route path="sign-up/verify" element={ <Verify/> } />
             <Route path="sign-up/verify/resend" element={ <Resend/> } />
+            <Route path="home" element={ <Home/> } />
             {/* <Route path="/" element={ <Home/> } /> */}
 
             {/* <Route path="about" element={ <About/> } />
