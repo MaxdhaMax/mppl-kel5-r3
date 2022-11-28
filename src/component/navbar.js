@@ -1,19 +1,30 @@
-import HomeActive from '../attributes/home-active.png'
-import Notif from '../attributes/notif.png'
-import Profile from '../attributes/profile.png'
+import React from 'react'
+import NavbarHome from './navbarHome'
+import NavbarNotification from './navbarNotif'
+import NavbarProfile from './navbarProfile'
 
-const Navbar = () => {
-    return (
-        <div>
-            <section className='bg-background border-t border-slate-300 mt-52'>
-                <div className=" flex justify-around ml-14 mr-14 pt-5 pb-5">
-                    <img src={HomeActive} alt="" />
-                    <img src={Notif} alt="" />
-                    <img src={Profile} alt=''/>
+
+class Navbar extends React.Component {
+    loadNavbar() {
+        switch (this.props.type) {
+            case 'home' :
+                return <NavbarHome/>;
+            case 'notification' :
+                return <NavbarNotification/>
+            case 'profile' :
+                return <NavbarProfile/>
+            default:
+                return <NavbarHome/>
+        }
+    }
+
+    render () {
+        return (
+                <div>
+                    {this.loadNavbar()}
                 </div>
-            </section>
-        </div>
-    )
+        )
+    }
 }
 
 export default Navbar
