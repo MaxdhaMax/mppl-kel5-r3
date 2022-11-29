@@ -9,7 +9,7 @@ class notifComponent extends React.Component {
         switch (this.props.type) {
             case 'likes' :
                 return <NotifLiked name={this.props.name}/>;
-            case 'dislike' :
+            case 'dislikes' :
                 return <NotifDislike name={this.props.name}/>
             case 'comment' :
                 return <NotifComment name={this.props.name}/>

@@ -1,4 +1,3 @@
-import Profil from '../attributes/gambar-profil.png'
 import Comment from '../attributes/comment.png'
 import ArrowUp from '../attributes/arrow-up.png'
 import ArrowDown from '../attributes/arrow-down.png'
@@ -24,7 +23,7 @@ class Thread  extends React.Component {
             <div className="border-t border-slate-300 mt-7 bg-background">
             <div className="container grid grid-flow-row auto-rows-max  ml-6 mt-4">
                 <div className="profile&caption flex items-center">
-                    <img src={Profil} alt="" className='w-fixed h-4/5'/>
+                    <img src={this.props.image} alt="" className='w-fixed h-4/5'/>
                     <caption className='grid grid-flow-row auto-rows-max ml-5 justify-items-start'>
                         <span className='text-tulisan'>{this.props.nama}</span>
                         <span className="text-sm text-tulisan-light">{this.props.hastag}</span>

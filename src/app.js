@@ -8,6 +8,7 @@ import Profile from "./pages/profile"
 import CreateThread from "./pages/createThread"
 import Notification from "./pages/notification"
 import Search from "./pages/search"
+import SeeThread from "./pages/seeThread"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/notification" element={ <Notification/> } />
             <Route path="/redirect" element={ <Navigate to="/home" /> } />
             <Route path="/search" element={ <Search/> } />
+            <Route path="/see-thread" element={ <SeeThread/> } />
         </Routes>
     </div>
   )

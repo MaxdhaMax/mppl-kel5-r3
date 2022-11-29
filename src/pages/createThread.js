@@ -8,7 +8,7 @@ import Files from '../attributes/files.png'
 const createThread = () => {
     return (
         <div className="bg-background h-screen">
-            <BackTopbar/>
+            <BackTopbar judul="Create Thread"/>
             <form action="" className="mt-5 ml-6">
                 <LabelInput title="Title" type="text" name="title"></LabelInput>
                 <label class="block mt-5 ">
