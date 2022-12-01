@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mppl-kel5-r3/static/css/main.0b62fa24.css",
+    "main.js": "/mppl-kel5-r3/static/js/main.f36d64f8.js",
+    "static/media/background-image.png": "/mppl-kel5-r3/static/media/background-image.6dfc640c1b6106b795e4.png",
+    "static/media/pattern.png": "/mppl-kel5-r3/static/media/pattern.2e15019de0115017d384.png",
+    "static/media/profile-bigger.png": "/mppl-kel5-r3/static/media/profile-bigger.11fe4c02c57493f25f34.png",
+    "index.html": "/mppl-kel5-r3/index.html",
+    "main.0b62fa24.css.map": "/mppl-kel5-r3/static/css/main.0b62fa24.css.map",
+    "main.f36d64f8.js.map": "/mppl-kel5-r3/static/js/main.f36d64f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b62fa24.css",
+    "static/js/main.f36d64f8.js"
+  ]
+}
